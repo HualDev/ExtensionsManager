@@ -1,0 +1,97 @@
+:root{
+    --neutral900: hsl(227, 75%, 14%);
+    --neutral800: hsl(226, 25%, 17%);
+    --neutral700: hsl(225, 23%, 24%);
+    --neutral600: hsl(226, 11%, 37%);
+    --neutral300: hsl(0, 0%, 78%);
+    --neutral200: hsl(217, 61%, 90%);
+    --neutral100: hsl(0, 0%, 93%);
+    --neutral0:   hsl(200, 60%, 99%);
+    --red400: hsl(3, 86%, 64%);
+    --red500: hsl(3, 71%, 56%);
+    --red700: hsl(3, 77%, 44%);
+    --lightGradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    --darkGradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    padding: 2rem 1rem;
+    background-color: var(--neutral900);
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0.7rem;
+    background-color: var(--neutral800);
+    border-radius: 1rem;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    background-color: var(--neutral700);
+    border-radius: 1rem;
+}
+
+.extension.tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1{
+    color: var(--neutral0);
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.tittle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back{
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    color: var(--neutral0);
+    background-color: var(--neutral700);
+    border: 2px var(--neutral800);
+}
+
+.all{
+    background-color: var(--red700);
+    color: var(--neutral900);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
