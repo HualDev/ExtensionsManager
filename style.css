@@ -79,49 +79,77 @@ h1{
 }
 
 .list{
-    padding: 2rem 1rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
     border: 0.15rem solid var(--neutral700);
     margin-top: 2rem;
+    background-color: var(--neutral700);
 }
 
 .top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .description{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    justify-content:start;
+    align-items: flex-start;
+    width: 14rem;
 }
 
 .description h1{
     margin: 0;
-    text-align: left;
-    width: 12rem;
+    font-size: 1.6rem;
 }
 
 .description p{
-    width: 12rem;
     color: var(--neutral600);
-    font-weight: 900;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0;
 }
 
+.button{
+    border-radius: 2rem;
+    border: 0.1rem solid var(--neutral600);
+    padding: 0.5rem 1rem;
+}
 
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0 0 0;
+    color: var(--neutral100);
+}
 
+.state{
+    width: 2.8rem;
+    border-radius: 2rem;
+    background-color: var(--red400);
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
 
-
-
-
+.circle{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: var(--neutral0);
+    margin: 0.1rem;
+    
+}
 
 
 
 footer{
     font-size: 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 footer a {

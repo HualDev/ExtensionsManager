@@ -19,8 +19,8 @@ fetch('data.json')
                               </div>
                             </div>
                             <div class='action'>
-                              <div>Remove</div>
-                              <div> <div></div> </div>
+                              <div class="button">Remove</div>
+                              <div class="state"> <div class="circle"></div> </div>
                             </div>
                             `
           list.appendChild(div)
