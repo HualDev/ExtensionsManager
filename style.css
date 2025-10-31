@@ -78,6 +78,38 @@ h1{
     font-weight: 700;
 }
 
+.list{
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    border: 0.15rem solid var(--neutral700);
+    margin-top: 2rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.description h1{
+    margin: 0;
+    text-align: left;
+    width: 12rem;
+}
+
+.description p{
+    width: 12rem;
+    color: var(--neutral600);
+    font-weight: 900;
+}
+
 
 
 
