@@ -20,7 +20,9 @@ fetch('data.json')
                             </div>
                             <div class='action'>
                               <div class="button">Remove</div>
-                              <div class="state"> <div class="circle"></div> </div>
+                              <div class=${element.isActive ? "state" : "state-left"}>
+                                <div class="circle"></div>
+                              </div>
                             </div>
                             `
           list.appendChild(div)
