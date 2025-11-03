@@ -18,6 +18,7 @@ fetch('data.json')
                                 <p>${element.description}</p>
                               </div>
                             </div>
+                            
                             <div class='action'>
                               <div class="button">Remove</div>
                               <div class=${element.isActive ? "state" : "state-left"}>
