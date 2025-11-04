@@ -18,7 +18,7 @@ fetch('data.json')
                                 <p>${element.description}</p>
                               </div>
                             </div>
-                            
+
                             <div class='action'>
                               <div class="button">Remove</div>
                               <div class=${element.isActive ? "state" : "state-left"}>
@@ -28,6 +28,13 @@ fetch('data.json')
                             `
           list.appendChild(div)
         });
-    
+
+        document.getElementById("active").addEventListener("click",() =>{
+          const list = document.getElementsByClassName("list")
+          for(let i =0; i<list.length;i++){
+            data[i].isActive ? list[i].classList.add('active-list') :  list[i].classList.add('inactive-list')
+          }
+        })
+
     })
 

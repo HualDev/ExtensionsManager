@@ -49,6 +49,14 @@ header{
     border-radius: 1rem;
 }
 
+.right:hover{
+    cursor: pointer;
+}
+
+.right:focus{
+    border: 0.1rem solid var(--red500);
+}
+
 .extension-tittle{
     display: flex;
     flex-direction: column;
@@ -76,6 +84,14 @@ h1{
     color: var(--neutral0);
     background-color: var(--neutral700);
     border: 0.1rem var(--neutral800);
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.back:focus{
+    border: 0.1rem solid var(--red500);
 }
 
 .all{
@@ -126,6 +142,16 @@ h1{
     padding: 0.5rem 1rem;
 }
 
+.button:hover{
+    background-color: var(--red500);
+    color: var(--neutral900);
+    cursor: pointer;
+}
+
+.button:focus{
+    border: 0.1rem solid var(--red500);
+}
+
 .action{
     display: flex;
     justify-content: space-between;
@@ -141,6 +167,21 @@ h1{
     display: flex;
     justify-content:right;
     align-items: center;
+}
+.active-list{
+    display: block;
+}
+
+.inactive-list{
+    display: none;
+}
+
+.state:hover{
+    cursor: pointer;
+}
+
+.state:focus{
+    border: 0.1rem solid var(--red700);
 }
 
 .circle{
