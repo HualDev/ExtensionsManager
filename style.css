@@ -95,9 +95,12 @@ h1{
 }
 
 .all{
-    background-color: var(--red700);
     color: var(--neutral900);
     font-weight: 700;
+}
+
+.red-color{
+    background-color: var(--red700);
 }
 
 .list{
