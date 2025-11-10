@@ -23,11 +23,18 @@
 
 body{
     padding: 2rem 1rem;
-    background-color: var(--neutral900);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.light-body{
+    background-color: var(--neutral200);
+}
+
+.dark-body{
+    background-color: var(--neutral900);
 }
 
 
@@ -36,8 +43,15 @@ header{
     justify-content:space-around;
     align-items: center;
     padding: 0.7rem;
-    background-color: var(--neutral800);
     border-radius: 1rem;
+}
+
+.light-header{
+    background-color: var(--neutral0);
+}
+
+.dark-header{
+    background-color: var(--neutral800);
 }
 
 .right{
@@ -63,12 +77,19 @@ header{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin: 2rem 0 1rem 0;
 }
 
 h1{
-    color: var(--neutral0);
     text-align: center;
-    margin: 2rem 0 1rem 0;
+}
+
+.dark-h1{
+    color: var(--neutral0);
+}
+
+.light-h1{
+    color: var(--neutral900);
 }
 
 .tittle{
@@ -81,9 +102,17 @@ h1{
 .back{
     padding: 0.5rem 1.5rem;
     border-radius: 2rem;
-    color: var(--neutral0);
-    background-color: var(--neutral700);
     border: 0.1rem var(--neutral800);
+}
+
+.light-back{
+    background-color: var(--neutral0);
+    color: var(--neutral900);
+}
+
+.dark-back{
+    background-color: var(--neutral700);
+    color: var(--neutral0);
 }
 
 .back:hover{
@@ -108,8 +137,15 @@ h1{
     border-radius: 1.5rem;
     border: 0.15rem solid var(--neutral700);
     margin-top: 2rem;
-    background-color: var(--neutral700);
     max-width: 25rem;
+}
+
+.dark-list{
+    background-color: var(--neutral700);
+}
+
+.light-list{
+    background-color: var(--neutral0);
 }
 
 .top{
@@ -130,19 +166,44 @@ h1{
 .description h1{
     margin: 0;
     font-size: 1.6rem;
+    /*color: var(--neutral200);*/
 }
 
 .description p{
-    color: var(--neutral600);
+    /*color: var(--neutral600);*/
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin: 0;
+}
+
+.dark-h1{
+    color: var(--neutral0);
+}
+
+.light-h1{
+    color: var(--neutral900);
+}
+
+.dark-p{
+    color: var(--neutral0);
+}
+
+.light-p{
+    color: var(--neutral900);
 }
 
 .button{
     border-radius: 2rem;
     border: 0.1rem solid var(--neutral600);
     padding: 0.5rem 1rem;
+}
+
+.button-light{
+    color: var(--neutral900);
+}
+
+.button.dark{
+    color: var(--neutral100);
 }
 
 .button:hover{
@@ -204,6 +265,10 @@ h1{
     border-radius: 2rem;
 }
 
+.state-left:hover{
+    cursor: pointer;
+}
+
 footer{
     font-size: 1rem;
     text-align: center;
@@ -230,7 +295,6 @@ footer a {
     header{
         justify-content: space-between;
         width: 37rem;
-        
     }
 
     .extension-tittle{
@@ -269,8 +333,9 @@ footer a {
     }
 
     .description p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         height: 3rem;
+        width: 12rem;
     }
 
     .button{
