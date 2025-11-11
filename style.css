@@ -59,8 +59,19 @@ header{
     justify-content: center;
     align-items: center;
     padding: 0.7rem;
-    background-color: var(--neutral700);
     border-radius: 1rem;
+}
+
+.dark-right{
+    background-color: var(--neutral700);
+}
+
+.light-right{
+    background-color: var(--neutral200);
+}
+
+.hidden{
+    display: none;
 }
 
 .right:hover{
@@ -166,11 +177,9 @@ h1{
 .description h1{
     margin: 0;
     font-size: 1.6rem;
-    /*color: var(--neutral200);*/
 }
 
 .description p{
-    /*color: var(--neutral600);*/
     font-weight: 500;
     font-size: 0.6rem;
     margin: 0;

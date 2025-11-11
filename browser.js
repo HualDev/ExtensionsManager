@@ -42,9 +42,7 @@ fetch('data.json')
             back[i].classList.toggle('dark-back')
           }
           const list = document.getElementsByClassName('list')
-          
-          
-          
+
           for(let i=0; i<list.length; i++){
             list[i].classList.toggle('light-list')
             list[i].classList.toggle('dark-list')
@@ -64,7 +62,13 @@ fetch('data.json')
             button[i].classList.toggle('button-light')
             button[i].classList.toggle('button-dark')
           }
-         
+          const sun = document.getElementById('sun')
+          const moon = document.getElementById('moon')
+          const darkLight = document.getElementById('dark-light')
+          sun.classList.toggle('hidden')
+          moon.classList.toggle('hidden')
+          darkLight.classList.toggle('dark-right')
+          darkLight.classList.toggle('light-right')
         })
 
         document.getElementById("active").addEventListener("click",() =>{
@@ -99,6 +103,6 @@ fetch('data.json')
             list[i].classList.remove('inactive-list')
           }
         })
-        
+
     })
 
