@@ -12,7 +12,7 @@ fetch('data.json')
           div.classList.add('list', 'dark-list')
           div.innerHTML = `
                             <div class= 'top'>
-                              <img src = ${element.logo}>
+                              <img src = ${element.logo} alt =' ${element.name}'>
                               <div class='description'>
                                 <h1 id='name' class='dark-h1 name'> ${element.name}</h1>
                                 <p id='description' class='dark-p description'>${element.description}</p>
